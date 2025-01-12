@@ -12,7 +12,4 @@ This application was developed as a practical part of the course project for the
 3. Use other buttons to perform various tree operations.
 4. Operation results and tree visualization will be displayed in the text field.
 
-## Acknowledgements
-Special thanks to the faculty of the Russian State Agrarian University - Moscow Timiryazev Agricultural Academy for their assistance in the development of this application.
-
 
