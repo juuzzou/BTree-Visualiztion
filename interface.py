@@ -161,19 +161,14 @@ class BinaryTreeGUI:
             messagebox.showerror("Ошибка", "Пожалуйста, введите значение.")
 
 
-# Создание главного окна
 root = tk.Tk()
 
-# Применение стиля и кастомизация окна
 style = ThemedStyle(root)
 style.set_theme("yaru")
 root.configure(bg=style.lookup("TFrame", "background"))
 
-# Создание объекта класса BinaryTreeGUI
 binary_tree_gui = BinaryTreeGUI(root)
 
-# Запрет изменения размеров окна
 root.resizable(False, False)
 
-# Запуск главного цикла обработки событий
 root.mainloop()
